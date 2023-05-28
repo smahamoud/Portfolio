@@ -13,6 +13,7 @@ import web3 from "../public/web3.png"
 import web4 from "../public/web4.png"
 import web5 from "../public/web5.png"
 import web6 from "../public/web6.png"
+import web7 from "../public/web7.png"
 import { useState } from "react";
 
 
@@ -30,7 +31,7 @@ export default function Home() {
       <main className=" bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 ">
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between dark:text-white'>
-            <h1 className='text-xl font-burtons'>Developed by Salmaan Mahamoud</h1>
+            <h1 className='text-xl font-burtons'>developed by salmaan</h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} 
@@ -45,9 +46,9 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium'>Salmaan Mahamoud</h2>
-            <h3 className="text-2xl py-2 dark:text-white">FrontEnd Developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200'>from Leicester</p>
+            <h2 className='text-5xl py-2 text-teal-600 font-extrabold'>Salmaan Mahamoud</h2>
+            <h3 className="text-2xl py-2 font-bold  dark:text-white">Front End Developer</h3>
+            <p className='text-md py-5 font-medium leading-8 text-gray-800 dark:text-gray-200'>from Leicester</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
           <AiFillGithub/>
@@ -60,26 +61,38 @@ export default function Home() {
         </section>
        
         <section>
-          <div>
-            <h3 className='text-3xl py-1 dark:text-gray-200'>My Projects</h3>
+          <div className='flex justify-center'>
+            <h3 className='text-3xl py-1 mt-20 font-bold dark:text-gray-200'>My Projects</h3>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-            <div className='basis-1/3 flex-1'>
+           
+            <div className='basis-1/4 flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
               <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
               </div>
-              <div className='basis-1/3 flex-1'>
+              
+              <div className='basis-1/4 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
               <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
               </div>
-              <div className='basis-1/3 flex-1'>
+              
+              <div className='basis-1/4 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
               <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
               </div>
-              <div className='basis-1/3 flex-1'>
+              
+              <div className='basis-1/4 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
               <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
               </div>
-              <div className='basis-1/3 flex-1'>
+              
+              <div className='basis-1/4 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
               <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
               </div>
-              <div className='basis-1/3 flex-1'>
+              
+              <div className='basis-1/4 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
               <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
               </div>
               
@@ -91,8 +104,17 @@ font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  dark:bg-blue-600 dark:hove
 </div>
         </section>
         <section>
+          <div className='flex justify-center'>
+            <h2 className='text-3xl py-1 mt-20 font-bold dark:text-gray-200'>About me</h2>
+          </div>
+          <div>
+          <Image src={web7} className=' rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" />
+          </div>
+          <div>
+            <h2></h2>
+          </div>
 
-          
+
         </section>
 
       </main>

@@ -51,9 +51,9 @@ export default function Home() {
             <p className='text-md py-5 font-medium leading-8 text-gray-800 dark:text-gray-200'>from Leicester</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-          <AiFillGithub/>
-            <AiFillLinkedin/>
-            <AiTwotoneMail/>
+          <a href= "https://github.com/smahamoud" role="button"><AiFillGithub/></a>
+          <a href= "https://www.linkedin.com/in/salmaan-mahamoud-981a9025a/" role="button"><AiFillLinkedin/></a>
+          
           </div>
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <Image src={picture1} layout="fill" objectFit="cover" />
@@ -67,41 +67,53 @@ export default function Home() {
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
            
             <div className='basis-1/4 flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
-              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
-              <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <a href="https://github.com/smahamoud/take-home-salary-calculator-react">
+                <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              </a>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'> Take home salary <AiFillGithub/></h2>
               </div>
               
-              <div className='basis-1/4 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'>
-              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
-              <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <div className='basis-1/4 flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+              <a href="https://github.com/smahamoud/SpotifySearcher">
+                <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              </a>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'> Spotify Searcher <AiFillGithub/></h2>
               </div>
               
-              <div className='basis-1/4 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'>
-              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
-              <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <div className='basis-1/4 flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+              <a href="https://github.com/smahamoud/pokedex-react">
+                <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              </a>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'> Pokedex <AiFillGithub/></h2>
               </div>
               
-              <div className='basis-1/4 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'>
-              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
-              <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <div className='basis-1/4 flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+              <a href="https://github.com/smahamoud/recipe-app">
+                <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              </a>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'> Recipe app <AiFillGithub/></h2>
               </div>
               
-              <div className='basis-1/4 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'>
-              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
-              <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <div className='basis-1/4 flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+              <a href="https://github.com/smahamoud/todo-list">
+                <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              </a>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'> To do list <AiFillGithub/></h2>
               </div>
               
-              <div className='basis-1/4 flex-1 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'>
-              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'>Project 1</h2>
-              <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              <div className='basis-1/4 flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+              <a href="https://github.com/smahamoud">
+                <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" />
+              </a>
+              <h2 className='flex justify-center text-m font-bold dark:text-gray-200'> coming soon <AiFillGithub/></h2>
               </div>
               
 
           </div>
           <div className='flex justify-center'>
-<a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 
-font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">View more</a>
-</div>
+          <a href="https://github.com/smahamoud" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 
+          font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">View more</a>
+          </div>
         </section>
         <section>
           <div className='flex justify-center'>

@@ -145,17 +145,16 @@ export default function Home() {
           <div className="text-center">
             <h3 className="text-3xl py-2 font-semibold dark:text-white">Hey, I&apos;m Salmaan</h3>
             <p className="text-md py-5 font-medium leading-8 text-gray-800 dark:text-gray-200">
-              
+            I began learning how to code during the fall of 2022 by building projects through the freeCodeCamp website. Since then, I have used Codecademy courses to learn languages such as Python, TypeScript, React Native, SQL and more. I have further honed my skills through the Coding Bootcamp Course at Purple Beard, which provided me with comprehensive training in software development. Additionally, I bring two years of customer service experience, where I developed strong communication, problem-solving, and interpersonal skills that are invaluable in any professional setting.
+
+While I am eager to begin a career in tech, I also have many hobbies and interests. One of them is a deep appreciation for both non-fiction and fiction literature, recognizing the vital roles they play in personal growth and development. And I enjoy weekly hikes to Wales and all over England.
+ 
             </p>
           </div>
           <div className="flex justify-center">
             <a
               href="https://www.linkedin.com/in/salmaan-mahamoud-981a9025a/"
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-            >I began learning how to code during the fall of 2022 by building projects through the freeCodeCamp website. Since then, I have used Codecademy courses to learn languages such as Python, TypeScript, React Native, SQL and more. I have further honed my skills through the Coding Bootcamp Course at Purple Beard, which provided me with comprehensive training in software development. Additionally, I bring two years of customer service experience, where I developed strong communication, problem-solving, and interpersonal skills that are invaluable in any professional setting.
-
-            While I am eager to begin a career in tech, I also have many hobbies and interests. One of them is a deep appreciation for both non-fiction and fiction literature, recognizing the vital roles they play in personal growth and development. And I enjoy weekly hikes to Wales and all over England.
-              View more
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"> View more
             </a>
           </div>
         </section>

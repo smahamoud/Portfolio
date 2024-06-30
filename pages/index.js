@@ -147,7 +147,7 @@ export default function Home() {
             <p className="text-md py-5 font-medium leading-8 text-gray-800 dark:text-gray-200">
             I began learning how to code during the fall of 2022 by building projects through the freeCodeCamp website. Since then, I have used Codecademy courses to learn languages such as Python, TypeScript, React Native, SQL and more. I have further honed my skills through the Coding Bootcamp Course at Purple Beard, which provided me with comprehensive training in software development. Additionally, I bring two years of customer service experience, where I developed strong communication, problem-solving, and interpersonal skills that are invaluable in any professional setting.
 
-While I am eager to begin a career in tech, I also have many hobbies and interests. One of them is a deep appreciation for both non-fiction and fiction literature, recognizing the vital roles they play in personal growth and development. And I enjoy weekly hikes to Wales and all over England.
+While I am eager to begin a career in tech, I also have many hobbies and interests. One of them is a deep appreciation for both non-fiction and fiction literature, recognizing the vital roles they play in personal growth and development. And I enjoy weekly hikes to Wales and all over England. I also take part in volunteering for charities such as Living with Abuse and Cancer research, I plan on taking part in another event for Cancer Research UK in October 2024.
  
             </p>
           </div>

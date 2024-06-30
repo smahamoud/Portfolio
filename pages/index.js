@@ -158,6 +158,7 @@ While I am eager to begin a career in tech, I also have many hobbies and interes
             </a>
           </div>
         </section>
+        <div className="mb-20"></div>
       </main>
     </div>
   );
